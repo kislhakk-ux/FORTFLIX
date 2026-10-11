@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  fortflix:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fortflix-app
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

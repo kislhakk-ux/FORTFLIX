@@ -1,0 +1,6 @@
+{
+  "name": "FORTflix",
+  "description": "FORTflix - Plataforma de streaming de filmes e séries com 1.000+ títulos, múltiplos perfis, player EmbedMovies e proteção AdShield.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
